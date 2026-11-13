@@ -1,0 +1,25 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/FibonacciTest.java",
+      "testCases": [
+        {
+          "methodName": "fibTest1",
+          "label": "Verify 1st Fibonacci number is 1",
+          "description": "Tests that the fib method correctly returns 1 as the 1st number in the Fibonacci sequence"
+        },
+        {
+          "methodName": "fibTest2",
+          "label": "Verify 3rd Fibonacci number is 2",
+          "description": "Tests that the fib method correctly returns 2 as the 3rd number in the Fibonacci sequence"
+        },
+        {
+          "methodName": "fibTest3",
+          "label": "Verify 6th Fibonacci number is 8",
+          "description": "Tests that the fib method correctly returns 8 as the 6th number in the Fibonacci sequence"
+        }
+      ]
+    }
+  ]
+}
